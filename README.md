@@ -30,7 +30,7 @@ Building the System
 Lunch your device after cloning all device sources if needed.
 
 ```bash
-lunch arrow_devicecodename-buildtype
+lunch arrow_ginkgo-buildtype
 ```
 
 Start compilation
