@@ -791,10 +791,8 @@
   <project path="tools/treble" name="platform/tools/treble" groups="tools,pdk" remote="aosp" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" remote="aosp" />
 
+    <!-- Arrow changes -->
+   <include name="arrow.xml" />
+
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
-
-  <!-- Arrow changes -->
-  <include name="remove.xml" />
-  <include name="arrow.xml" />
-
 </manifest>
